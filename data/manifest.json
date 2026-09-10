@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "account": "yuukamiya68",
+  "dataset": "parenting-candidates",
+  "imports": [
+    {
+      "keyword": "子供",
+      "recordCount": 519,
+      "sourceFilename": "x-posts-2026-09-10T07-14-37-397Z.txt",
+      "capturedAt": "2026-09-10T07:14:37.397Z",
+      "curationStatus": "pending",
+      "notes": "Broad keyword candidate set. Includes own-child parenting posts plus childhood/general/fiction uses; do not treat all 519 as parenting-only."
+    }
+  ],
+  "dedupeKey": "statusId",
+  "mergeRule": "union matchedKeywords for duplicate statusId"
+}
