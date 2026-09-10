@@ -6,7 +6,8 @@ export function createPanel(defaults, handlers) {
       #xpc-panel{position:fixed;right:14px;top:70px;z-index:2147483647;width:290px;background:#111;color:#eee;border:1px solid #555;border-radius:10px;padding:10px;font:12px/1.35 system-ui;box-shadow:0 4px 20px #0008}
       #xpc-panel input,#xpc-panel textarea{box-sizing:border-box;width:100%;margin:2px 0 7px;background:#222;color:#fff;border:1px solid #555;border-radius:5px;padding:5px}
       #xpc-panel textarea{height:92px;resize:vertical}
-      #xpc-panel button{margin:2px;padding:5px 7px;cursor:pointer}
+      #xpc-panel button{appearance:none!important;-webkit-appearance:none!important;margin:2px!important;padding:6px 9px!important;cursor:pointer!important;background:#1d9bf0!important;color:#fff!important;border:1px solid #1d9bf0!important;border-radius:6px!important;font:600 12px/1.2 system-ui!important;opacity:1!important;-webkit-text-fill-color:#fff!important}
+      #xpc-panel button:hover{filter:brightness(.92)}
       #xpc-panel .xpc-row{display:flex;gap:4px;flex-wrap:wrap}
       #xpc-panel .xpc-stats{margin-top:7px;padding-top:7px;border-top:1px solid #444;white-space:pre-line}
     </style>
